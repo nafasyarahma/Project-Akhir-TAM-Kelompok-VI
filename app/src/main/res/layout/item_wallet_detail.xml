@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:layout_marginTop="15dp">
+
+    <TextView
+        android:id="@+id/item_wallet_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 Januari 2022"
+        android:gravity="right"/>
+
+    <RelativeLayout
+        android:id="@+id/item_wallet_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_item_wallet_detail">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/item_wallet_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="15dp"
+                android:layout_gravity="left|center"
+                android:background="@drawable/photo"/>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="left|center">
+
+                <TextView
+                    android:id="@+id/item_wallet_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Kategori"
+                    android:autoSizeMinTextSize="10sp"
+                    android:autoSizeMaxTextSize="25sp"
+                    android:autoSizeTextType="uniform"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/item_wallet_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Deskripsi"
+                    android:autoSizeMinTextSize="5sp"
+                    android:autoSizeMaxTextSize="20sp"
+                    android:autoSizeTextType="uniform"
+                    android:gravity="bottom"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/item_wallet_price"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:maxLines="1"
+                android:text="- Rp. 000.000.000"
+                android:autoSizeMinTextSize="5sp"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:textStyle="bold"
+                android:gravity="right|center"
+                android:layout_marginEnd="10dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

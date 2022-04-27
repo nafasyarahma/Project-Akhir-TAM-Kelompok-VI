@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#4A4A4A</color>
+    <color name="color_primary_variant">#e89ce0</color>
+    <color name="color_on_primary">#f68eb7</color>
+    <color name="color_second_primary">#7ec4cf</color>
+    <color name="color_second_primary_variant">#52b2cf</color>
+    <color name="color_on_second_primary">#ff5c98</color>
+
+    <color name="bottom_nav_bar">#FFAFCC</color>
+    <color name="icon_bg">#EBEBEB</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_transparent">#80FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="home_bg">#EA84C9</color>
+    <color name="home_btn_getstarted">#EA84C9</color>
+    <color name="wallet_bg">#7FDEFF</color>
+    <color name="wallet_input_bg">#B388EB</color>
+    <color name="profile_bg"></color>
+
+    <color name="wallet_graph_bg">#CDB4DB</color>
+    <color name="wallet_graph_progress_bar_bg">#72BFFE</color>
+    <color name="wallet_graph_progress_bar_rotate_start">#fe86c8</color>
+    <color name="wallet_graph_progress_bar_rotate_end">#ff5db6</color>
+
+    <color name="wallet_detail_pengeluaran">#FF5DB6</color>
+    <color name="wallet_detail_pemasukan">#72BFFE</color>
+
+    <color name="wallet_input_edit_bg">#F9B4ED</color>
+    <color name="wallet_input_btn_save">#7FDEFF</color>
+</resources>
